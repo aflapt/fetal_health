@@ -4,6 +4,19 @@
 
 This project addresses the major public health problem that is fetal mortality. Using data from actual patients' cardiotocography (CTG) exams and their accomponaying fetal health outcomes assigned by expert obstetricians, I have determined that automated assessment of fetal health is possible using CTG data.
 
+what is CTG?
+
+CTG typically refers to Cardiotocography, which is a monitoring technique used during pregnancy and labor to monitor the fetal heartbeat and uterine contractions. It's a vital tool in obstetrics to assess the well-being of the fetus and to detect any signs of distress during pregnancy or labor.
+
+**Purpose**: CTG is used to monitor the fetal heart rate (FHR) and uterine contractions to assess the fetal well-being.
+
+**Components**:
+
+1:Fetal Heart Rate (FHR) Monitoring: Detects changes in the fetal heart rate which may indicate fetal distress.
+
+2:Uterine Contractions Monitoring: Tracks the frequency and duration of uterine contractions to assess their impact on fetal oxygenation.
+
+
 
 ## Business Problem:
 
@@ -13,6 +26,9 @@ I address the question of how to predict fetal health outcomes based on CTG data
 Can performing CTGs as preventative care help predict fetal health outcomes?
 If so, which measures on a CTG exam are most significant when predicting fetal health outcomes?
 What can an individual healthcare provider do to help the global cause of decreasing fetal mortality? What exactly should be prioritized?
+
+
+
 
 
 ## Hypotheses
@@ -44,9 +60,31 @@ Citation: Ayres de Campos et al. (2000) SisPorto 2.0 A Program for Automated Ana
 https://onlinelibrary.wiley.com/doi/10.1002/1520-6661(200009/10)9:5%3C311::AID-MFM12%3E3.0.CO;2-9
 
 
+data modelling flow:
+1:load dataset
+2:**exploratory data analysis**:
 
+  EDA is a vital step in the data analysis process that entails visually and statistically analyzing datasets to find patterns, trends, and insights.
 
+The principal goals of exploratory data analysis (EDA) are to detect anomalies in the dataset and develop recommendations for additional investigation, thereby guaranteeing a thorough comprehension of the subtleties of the data.
 
+To obtain a comprehensive understanding of the data, analysts use a variety of EDA approaches, including summary statistics, correlation analysis, and data visualization using tools like box plots, scatter plots, and histograms.
+
+EDA provides insightful information that helps with hypothesis creation and decision-making by improving knowledge of data distribution, variable correlations, and anomalies. When all is said and done, the efficacy of data-driven projects is enhanced by EDA’s capacity to identify trends and anomalies.
+
+## data preprocessing:
+
+ When referring to data preparation and cleaning, preprocessing is done before raw data is entered into an analytical tool or machine learning model. Missing value handling, feature scaling, categorical variable encoding, and outlier removal are all part of it. To improve the performance and interpretability of the model, it is important to make sure the data is in the right format. Data-driven jobs are more successful overall when preprocessing is used to reduce noise, standardize data, and optimize it for effective analysis.
+
+ ## data cleaning:
+
+ Data cleaning refers to the process of removing unwanted variables and values from our dataset and getting rid of any irregularities in it.such irregularities can disproportionality skew our data and hence adversely effect the result
+
+ 
+
+ 
+
+ 
 
 
 
